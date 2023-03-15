@@ -1,0 +1,27 @@
+{
+  "name": "array-numbers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "module": "commonjs",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kolibri0/Test-from-Byndyusoft-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kolibri0/Test-from-Byndyusoft-/issues"
+  },
+  "homepage": "https://github.com/kolibri0/Test-from-Byndyusoft-#readme",
+  "devDependencies": {
+    "jest-environment-jsdom": "^29.5.0"
+  },
+  "dependencies": {
+    "jest": "^29.5.0"
+  }
+}
