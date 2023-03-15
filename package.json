@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "module": "commonjs",
+  "type": "module",
   "scripts": {
     "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
   },
   "repository": {
     "type": "git",
@@ -19,6 +24,8 @@
   },
   "homepage": "https://github.com/kolibri0/Test-from-Byndyusoft-#readme",
   "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.5.0",
     "jest-environment-jsdom": "^29.5.0"
   },
   "dependencies": {

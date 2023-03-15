@@ -1,5 +1,4 @@
-
-const { arraySummTest } = require("./arraySumm")
+import { arraySummTest } from "./arraySumm";
 
 test('Check arraySumm foo', () => {
   expect(arraySummTest('1,2,3,4,5')).toBe(3)
